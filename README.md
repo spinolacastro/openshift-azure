@@ -13,11 +13,11 @@ Deploy:
 ----------------------
 To deploy, create you Azure Subscription and install the CLI (https://azure.microsoft.com/en-us/documentation/articles/xplat-cli-install/)
 
-
+```
 $ azure group create <RESOURCE_GROUP> -i <LOCATION>
 
 $ azure group deployment create -f origin.json -g <RESOURCE_GROUP>
-
+```
 
 Your will be asked to provide `dnsLabelPrefix` and `sshPassword` parameters.
 
